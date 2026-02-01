@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG Drawing Pad</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 50px;
+    }
+    svg {
+      border: 2px solid black;
+      cursor: crosshair;
+    }
+  </style>
+</head>
+<body>
+  <h2>SVG Drawing Area</h2>
+<button onclick="clearDrawing()">Delete / Clear</button>
+<br><br>
+<svg id="drawingArea" width="800" height="400"></svg>
+  <script src="script.js"></script>
+</body>
+</html>
